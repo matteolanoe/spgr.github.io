@@ -1,15 +1,11 @@
 project:
   type: website
-  preview:
-    port: 6017
-    browser: false
-    watch-inputs: true
   post-render:
     - "cp -rv static/. _site/"
 
 website:
   title: "{{< var jpe.short >}} Data Editor"
-  favicon: img/favicon.png
+  favicon: img/jpeicon.png
   page-footer: 
     left: "{{< var jpe.short >}} Data Editor: [{{< var de.mail >}}]({{< var de.mail >}}) <br> {{< var jpe.short >}} Journal Office: [{{< var jpe.mail >}}]({{< var jpe.mail >}})"
     center: "© [Florian Oswald](https://floswald.github.io) {{< var de.year >}}"
