@@ -1,0 +1,111 @@
+---
+title: "JPE Checklist For Authors"
+format: 
+    pdf: default
+editor: source
+---
+
+![](img/banner.png){fig-align="top"}
+\vspace{0.5cm}
+
+Before submitting your final version, please check that you have complied with the following. We ask that you tick the relevant boxes, sign and submit this form along with folders `1-paper` and `2-appendix` as detailed below via *Editorial Express*. After successful submission, the Data Editor will invite you to submit your replication package in a separate step. You will confirm below that your replication package complies with the required structure and content.
+
+Thank you!
+
+## 1. Style Guide for Paper
+
+- [ ] My article uses UK (not US) English. 
+
+- [ ] I have presented any matrices and vectors in bold, and any scalars in italics. Where possible, I have presented in-line equations so that their heights are no more than 1 standard line of text.
+
+- [ ] I have checked that my reference list meets the style requirements of the journal and that my references are complete, particularly in the use of capitals and the inclusion of issue and page numbers. 
+
+- [ ] I have checked that all tables are large enough that they will be clearly readable when reduced to fit on a printed page.
+
+- [ ] I have checked that all figures are high-resolution and readable when printed in black and white. 
+
+- [ ] I have obtained permission for any third-party material included in the paper.
+
+- [ ] I confirm that either (i) all references made to figures in the paper are worded so that they are comprehensible in both the colour online version and the black-and-white print version or (ii) I will be taking the option for colour printing for my figures and I am aware that there will be a cost associated with this.
+
+## 2. Replication Package Guide
+
+### 2.0. Folder Structure of Replication package
+
+You are requested to submit a single zip file called `MSXXXXXXX-replication.zip` which contains all contents of your replication package (contents detailed below).
+
+- [ ] I confirm to have prepared a *single* file for submission of my replication package called `MSXXXXXXX-replication.zip`.
+
+
+The folder structure needs to follow strictly the following template (please name your folders in this exact way. Notice there are *no spaces*, and *no capital letters in those folder names*):
+
+{{< include _folder-structure.qmd >}}
+
+- [ ] I confirm that the content `MSXXXXXXX-replication.zip` is *exactly identical* to the template (in particular, folder `3-replication-package.zip` is `zip` compressed, regardless of its size!)
+
+### 2.1. Folder `1-paper`
+
+- [ ] I confirm that `MSXXXXXXX-replication.zip` contains a folder called `1-paper`
+
+  I confirm that `1-paper` contains:
+
+- [ ] all source code needed to compile the paper named in the appropriate way. This folder includes `MSXXXXXXXX-main-YYYYMMDD.tex` (or `.docx`) and `MSXXXXXXXX-main-YYYYMMDD.pdf`, `MSXXXXXXXX` being your manuscript number, and `YYYYMMDD` standing for the date of final submission in ISO format.
+
+- [ ] all required input files (graphs and tables etc.), clearly labelled.
+
+- [ ] any `.bib`, `.bbl` or `.bst` files required for compilation.
+
+
+### 2.2. Folder `2-appendix` (if applicable)
+
+I confirm that `2-appendix` contains - if applicable:
+
+- [ ] source code and compiled version of *all appendices combined* in a single `.tex`/`.pdf` file, following the above naming convention: `MSXXXXXXXX-appendix-YYYYMMDD.tex`
+
+### 2.3. Folder `3-replication-package.zip` (*must* be `.zip`)
+
+I confirm that `3-replication-package.zip` contains:
+
+- [ ] A file called `README.pdf` in PDF format. We strongly recommend using the following template: [https://social-science-data-editors.github.io/template_README/template-README.html](https://social-science-data-editors.github.io/template_README/template-README.html). This template can be downloaded in Markdown/txt, doc, LaTeX, and PDF in order to be edited. Alternatively, we recommend  [this web app](https://www.templatereadme.org/) to create the `README`. I confirm that my `README` includes the following information (check each item): 
+
+  - [ ] A verbal description of the content of the package (datasets, programs, folders, etc.)
+  - [ ] A Data Availability Statement
+  - [ ] A Statement about Rights, certifying that a) the author(s) of the manuscript have legitimate access to and permission to use the data used in this manuscript, and b) that the author(s) of the manuscript have **documented** permission to redistribute/publish the data contained within this replication package. Appropriate permissions are documented in the LICENSE.txt file.
+  - [ ] Precise instructions on how to run the code.
+  - [ ] Indications on where each piece of output is saved or displayed
+  - [ ] Software requirements, including the software version and operating system used by the authors.
+  - [ ] All packages and libraries that need to be installed to run the code and a clear indication on how to obtain them.
+  - [ ] Expected running time (even if it is a few seconds)
+  - [ ] Data citations
+
+- [ ] The raw datasets used in the paper and online appendices.
+
+- [ ] Both the data cleaning codes and the analysis codes that produce all reproducible outputs reported in the article, appendix, and online appendices (including figures, tables, and numbers reported in the text)
+
+- [ ] A copy of the all data in non-proprietary format (e.g. `ASCII`, `.csv`, etc)
+
+- [ ] My paper uses data generated via experiments. I confirm to include the following additional documents:
+
+  - [ ] A document outlining the design of the experiment.
+  - [ ] A copy of the instructions given to participants, in both the original language and an English translation.
+  - [ ] Information on the selection and eligibility of participants.
+  - [ ] A PDF copy of the Institutional Review Board (IRB) approval.
+  
+### 2.4. Folder `4-confidential-data-not-for-publication.zip` (if applicable)
+
+*Optional: include only the restricted data if an exemption to the Data and Code Availability Policy have been granted to you and you are providing the replication team with temporary access to the data; all codes and unrestricted data should go to folder `3-replication-package.zip`.*
+
+- [ ] I confirm to have obtained an exemption to the Data and Code Availability Policy from my managing editor and I include confidential data which will not be published with the package, but which will be destroyed by the replication team after successful checks.
+
+## 3. Plagiarism and Reproducibility Checks
+
+I understand that the files submitted will be checked for plagiarism and that any code and data submitted will be checked for replicability of the results appearing in the paper, before the paper is finally accepted.
+
+\vspace{2cm}
+
+Date: ________________________          
+
+\vspace{2cm}
+
+Signature: _______________________
+

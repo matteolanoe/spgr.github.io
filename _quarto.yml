@@ -1,0 +1,49 @@
+project:
+  type: website
+  preview:
+    port: 6017
+    browser: false
+    watch-inputs: true
+  post-render:
+    - "cp -rv static/. _site/"
+
+website:
+  title: "{{< var jpe.short >}} Data Editor"
+  favicon: img/favicon.png
+  page-footer: 
+    left: "{{< var jpe.short >}} Data Editor: [{{< var de.mail >}}]({{< var de.mail >}}) <br> {{< var jpe.short >}} Journal Office: [{{< var jpe.mail >}}]({{< var jpe.mail >}})"
+    center: "© [Florian Oswald](https://floswald.github.io) {{< var de.year >}}"
+    right:
+      - icon: github
+        href: https://github.com/jpedataeditor
+
+#   navbar:
+#     logo: img/logo-v2-1.png
+#     background: '#efeddf'
+#     left:
+#       - href: before.qmd
+#         text: Before You Submit
+#       - href: best.qmd
+#         text: Best Practices
+#       - href: package.qmd
+#         text: Prepare the Package
+#       - href: faqs.qmd
+#         text: FAQs
+#       - href: posts.qmd
+#       - href: de.qmd
+#         text: Data Editor
+#   google-analytics:
+#     tracking-id: "G-48S9X9V28L"
+#     anonymize-ip: true
+#   cookie-consent: true
+
+# format:
+#   html:
+#     theme: 
+#       - cosmo
+#       - mytheme.scss
+#     toc: true
+#     linkcolor: black
+
+
+

@@ -1,0 +1,6 @@
+---
+title: "The JPE Data Editor"
+---
+
+
+The Data Editor of the JPE is [Florian Oswald](https://floswald.github.io).
