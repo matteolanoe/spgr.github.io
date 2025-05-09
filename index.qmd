@@ -1,12 +1,29 @@
 ---
-title: "{{< var jpe.short >}} Data Editor Website"
+title: "Journal of Political Economy <br> Data Editor Website"
+# title-block-banner: rgb(133, 214, 202)
+# title-block-banner-color: rgb(255, 255, 255)
+# include-in-header:
+#   - text: |
+#       <style>
+#       #title-block-header.quarto-title-block.default .quarto-title-meta {
+#         color:rgb(255, 255, 255);
+#       }
+#       .quarto-title-block .quarto-title-banner {
+#         height: 300;
+#       }
+#       #title-block-header {
+#         background-image: url(jpe.jpg);
+#         background-size: cover;
+#         background-position-x: right;
+#         height: 400px;
+#       }
+#       </style>
 ---
 
-![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeW5hZTF1c20ybzFqZzM1Ynp5dXByaWpzc2R2YmU4bjM4bTA3c2tsZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EIiJp9cQ3GeEU/giphy.gif)
-
-**Work in Progress**
-
 This website provides all the relevant information regarding the Data and Code Availability Policy and pre-acceptance reproducibility checks implemented at the [{{< var jpe.long >}}]({{< var jpe.url >}}). 
+
+
+Draft of [JPE Data and Code Policy](policy.qmd) - planned to go into effect on July 1st 2025.
 <!-- 
 <br>
 [**Before Submitting Your Package**](before.qmd){.btn .btn-secondary .btn role="button"}
@@ -37,4 +54,4 @@ Looking for papers which have been checked for reproducibility and which you wan
 
 
 
-Find more about our Data Editor. [**Data Editor**](de.qmd){.btn .btn-secondary .btn role="button"}
+Find out more about the JPE Data Editor [here](de.qmd).

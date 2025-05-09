@@ -13,25 +13,28 @@ website:
       - icon: github
         href: https://github.com/jpedataeditor
 
-#   navbar:
-#     logo: img/logo-v2-1.png
-#     background: '#efeddf'
-#     left:
-#       - href: before.qmd
-#         text: Before You Submit
-#       - href: best.qmd
-#         text: Best Practices
-#       - href: package.qmd
-#         text: Prepare the Package
-#       - href: faqs.qmd
-#         text: FAQs
-#       - href: posts.qmd
-#       - href: de.qmd
-#         text: Data Editor
-#   google-analytics:
-#     tracking-id: "G-48S9X9V28L"
-#     anonymize-ip: true
-#   cookie-consent: true
+  # temporary
+  announcement: 
+    icon: cone-striped
+    dismissable: false
+    content: "This website is being built at the moment. Official Launch July 1st 2025."
+    type: warning
+    position: above-navbar
+
+  sidebar:
+    style: docked
+    logo: img/jpe.jpg
+    alignment: left
+    contents: 
+      - href: policy.qmd
+        text: Code and Data Policy      
+      - href: de.qmd
+        text: Data Editor
+      
+  google-analytics:
+    tracking-id: "G-48S9X9V28L"
+    anonymize-ip: true
+  cookie-consent: true
 
 # format:
 #   html:
