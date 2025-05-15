@@ -1,15 +1,17 @@
 ---
 title: JPE Data and Code Policy
+date: today
 format:
     html: default
-    pdf: default
+    docx: default
+    md: default
 number-sections: true
 number-depth: 3
 toc: true
 
 ---
 
-It is the policy of the Journal of Political Economy (JPE) to publish papers only if the data and computer code used in the analysis are clearly and precisely documented and are readily available to any researcher for purposes of replication. Authors of conditionally accepted papers, in particular those that contain empirical work, simulations, experimental work, or numerical computations, must provide, prior to publication, the data, programs, and other details of the computations sufficient to permit replication. They must also provide sufficient information to replicate the process of obtaining the raw data from the original sources and cite all the sources of data appropriately.
+It is the policy of the Journal of Political Economy (JPE) to publish papers only if the data and computer code used in the analysis are clearly and precisely documented and are readily available to any researcher for purposes of replication (unless the exemptions discussed below apply). Authors of conditionally accepted papers, in particular those that contain empirical work, simulations, experimental work, or numerical computations, must provide, prior to publication, the data, programs, and other details of the computations sufficient to permit replication. They must also provide sufficient information to replicate the process of obtaining the raw data from the original sources and cite all the sources of data appropriately.
 
 The JPE will perform reproducibility checks of empirical, experimental and simulation results of all conditionally accepted papers and their approved online appendices. Eventual publication of the paper is conditional on a positive outcome of those checks.
 Requests for an exemption from providing the materials described in this policy, or for restricting their usage, should be stated clearly when the paper is first submitted for review. The handling editor will decide whether the paper should be reviewed in this case. Exceptions will not be considered later in the review and publication process.
@@ -32,7 +34,7 @@ A Data Availability Statement (DAS) must be provided with sufficient detail for 
 
 ### Raw Data {#sec-rawdata}
 
-The raw data utilized in the research, including primary data collected by the author and secondary data, must be included in the replication package. If the exact extract of the raw data used in the analysis is published in a trusted repository that satisfies the FAIR data principles (guidance [here](https://social-science-data-editors.github.io/guidance/Requested_information_hosting.html)), including a permanent identifier (e.g. its DOI) linking to these raw data is considered sufficient to fulfill the obligation of including the raw data in the replication package. In cases where the terms of use of the secondary data or the ethics requirements of the primary data used in the analysis prohibit the authors from publishing them, the authors must request an exemption and provide a justification for not complying with the policy. When exemptions are granted, authors are required to comply with at least one of the following two procedures: 
+The raw data utilized in the research, including primary data collected by the author and secondary data, must be included in the replication package. If the exact extract of the raw data used in the analysis is published in a trusted repository that satisfies the FAIR data principles (guidance [here](https://social-science-data-editors.github.io/guidance/Requested_information_hosting.html)), including a permanent identifier (e.g. its DOI) linking to these raw data is considered sufficient to fulfill the obligation of including the raw data in the replication package. In cases where legal barriers for sharing the data prohibit the authors from publishing them, the authors must request an exemption and provide a justification for not complying with the policy. When exemptions are granted, authors are required to comply with at least one of the following two procedures: 
 
 1. Whenever possible, provide the JPE with temporary access to the data affected by the exemption for the purpose of implementing reproducibility checks. It is the authors' responsibility to obtain permission from the data provider to confidentially share the data with the JPE.
 2. Include in the replication package a synthetic or simulated dataset that enables users to execute the code and verify that it generates all outputs presented in the paper and appendices, even if the results differ from those in the paper. While including synthetic/simulated data is not required when temporary access for JPE is provided, it is still recommended, as it allows future users of the package to run the codes, increasing the publication's impact.
@@ -141,3 +143,9 @@ The replication package must be deposited with a license that specifies the term
 ### Omissions
 
 The `README` must clearly indicate any omission of the required parts of the package as a result of a granted exemption. The `README` must also indicate the reasons for such omission, such as legal requirements, limitations, or other approved agreements. In cases where the extent or complexity of the reproducibility checks impedes the exact reproduction of all the results in the paper and approved appendices, such as when synthetic datasets are provided (see @sec-rawdata) or partial checks have been implemented (see @sec-analysis-code), the `README` must clarify which results have not been checked for reproducibility and why.
+
+
+
+::: {.small}
+Version v{{< var policy.version >}}, {{< meta date >}}
+:::
