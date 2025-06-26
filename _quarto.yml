@@ -2,14 +2,13 @@ project:
   type: website
 
 website:
-  title: "{{< var jpe.short >}} Data Editor"
+  title: "JPE Data Editor"
   favicon: img/jpeicon.png
+  repo-url: https://github.com/jpedataeditor/jpedataeditor.github.io
   page-footer: 
-    left: "{{< var jpe.short >}} Data Editor: [{{< var de.mail >}}]({{< var de.mail >}}) <br> {{< var jpe.short >}} Journal Office: [{{< var jpe.mail >}}]({{< var jpe.mail >}})"
+    left: "JPE Data Editor: [jpe.dataeditor@gmail.com](mailto:jpe.dataeditor@gmail.com) <br> JPE Journal Office: [jpe@press.uchicago.edu](mailto:jpe@press.uchicago.edu)"
     center: "© [Florian Oswald](https://floswald.github.io) {{< var de.year >}}"
-    right:
-      - icon: github
-        href: https://github.com/jpedataeditor
+    right: "[Report an Issue](https://github.com/jpedataeditor/jpedataeditor.github.io/issues/new/choose)"
 
   # temporary
   announcement: 
