@@ -40,9 +40,14 @@ website:
         text: Data Editor
       
   google-analytics:
-    tracking-id: "G-48S9X9V28L"
+    tracking-id: "G-098M22QPXE"
     anonymize-ip: true
-  cookie-consent: true
+
+  cookie-consent:
+    style: simple  # or 'basic' or 'advanced'
+    type: implied  # or 'explicit'
+    palette: light  # or 'light'
+    policy-url: https://jpedataeditor.github.io/privacy.html
 
 format:
   html:

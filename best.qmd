@@ -10,7 +10,7 @@ preview:
 
 # Data Editor Collaboration
 
-The Data Editors several economics journals collaborate to produce overall unofficial [common guidance](https://social-science-data-editors.github.io/guidance/), which we recommend to consult.
+The Data Editors of several economics journals collaborate to produce overall unofficial [common guidance](https://social-science-data-editors.github.io/guidance/), which we recommend to consult.
 :::
 
 

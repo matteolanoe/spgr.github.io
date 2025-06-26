@@ -39,13 +39,11 @@ Please follow precise instructions on how to structure your replication package 
 :::
 
 
-## Apply to exemptions to the Data and Code Availability Policy
+## Apply to exemptions to the Data and Code Availability Policy {#sec-apply-exemption}
 
 If you are not able to comply with some of the aspects of the Data and Code Availability Policy (e.g. because you are using restricted-access data or you cannot obtain permission to re-publish the data), you should request an exemption **at the time of first submission of your paper**. You can find a set of Frequently Asked Questions about the situations under which you can or cannot apply to an exemption to the data and code availability policy [here](faqs.qmd). 
 
-If you want to request a Data Exemption, you need to select the second option for the Data Policy box during your submission process at the Editorial Express platform, as illustrated in figure @fig-exemption:
-
-![Data Policy Exemption](/img/Data_policy.png){#fig-exemption}
+If you want to request a Data Exemption, *here is what you need to do*
 
 Additionally, attach a Cover Letter along with your paper in which you indicate the reasons why you believe you are entitled to an exemption to our data and code availability policy. 
 
