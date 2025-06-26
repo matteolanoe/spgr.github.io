@@ -2,21 +2,21 @@
 title: "Journal of Political Economy <br> Data Editor Website"
 ---
 
-This website provides relevant information regarding the Data and Code Availability Policy and pre-acceptance reproducibility checks implemented at the [{{< var jpe.long >}}]({{< var jpe.url >}}). 
+This website provides relevant information regarding the [Data and Code Availability Policy](policy.qmd) and pre-acceptance reproducibility checks implemented at the JPE. 
 
 
 Here is a schematic outline of the reproducibility checks process:
 
 ```{mermaid}
 %%| title: process
-flowchart LR
+flowchart TD
+  X(Paper<br>conditionally accepted) --> A
   A(Author fills<br> out form) --> B(Data Editor<br>sends private<br>upload link)
   B --> C{Checks pass}
   C --> D[Yes: author uploads<br>to dataverse]
   C --> E[No: package goes<br>back to authors]
   E --> B
 ```
-
 
 
 1. Authors fill out data availability form in conditional acceptance email.
