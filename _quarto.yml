@@ -52,7 +52,7 @@ website:
 format:
   html:
     mermaid:
-      theme: default
+      theme: neutral
     theme: 
       # - cosmo
       - mytheme.scss
