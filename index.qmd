@@ -1,57 +1,45 @@
 ---
 title: "Journal of Political Economy <br> Data Editor Website"
-# title-block-banner: rgb(133, 214, 202)
-# title-block-banner-color: rgb(255, 255, 255)
-# include-in-header:
-#   - text: |
-#       <style>
-#       #title-block-header.quarto-title-block.default .quarto-title-meta {
-#         color:rgb(255, 255, 255);
-#       }
-#       .quarto-title-block .quarto-title-banner {
-#         height: 300;
-#       }
-#       #title-block-header {
-#         background-image: url(jpe.jpg);
-#         background-size: cover;
-#         background-position-x: right;
-#         height: 400px;
-#       }
-#       </style>
 ---
 
-This website provides all the relevant information regarding the Data and Code Availability Policy and pre-acceptance reproducibility checks implemented at the [{{< var jpe.long >}}]({{< var jpe.url >}}). 
+This website provides relevant information regarding the Data and Code Availability Policy and pre-acceptance reproducibility checks implemented at the [{{< var jpe.long >}}]({{< var jpe.url >}}). 
 
 
-Draft of [JPE Data and Code Policy](policy.qmd) - planned to go into effect on July 1st 2025.
-<!-- 
+Here is a schematic outline of the reproducibility checks process:
+
+```{mermaid}
+%%| title: process
+flowchart LR
+  A(Author fills<br> out form) --> B(Data Editor<br>sends private<br>upload link)
+  B --> C{Checks pass}
+  C --> D[Yes: author uploads<br>to dataverse]
+  C --> E[No: package goes<br>back to authors]
+  E --> B
+```
+
+
+
+1. Authors fill out data availability form in conditional acceptance email.
+2. Data Editor invites submission of package via private upload link. Confidential data can be shared at this stage.
+3. JPE Reproducibility team checks package.
+   1. If successfull, authors upload package to JPE dataverse, removing any confidential data from package.
+   2. if not, Data Editor asks for improvements, and we enter the next round.
+
+
+We invite you to consider the following list of steps for your replication package:
+
 <br>
-[**Before Submitting Your Package**](before.qmd){.btn .btn-secondary .btn role="button"}
-
-Learn about our Data and Code Availability Policy, possible exemptions to it, and make sure you comply with all requirements before you submit the paper for the first time. Exemptions can only be granted if you apply _when you first submit your paper_.
-
+[**1. Read the JPE Policy**](policy.qmd){.btn .btn-primary .btn role="button"}
 <br>
-[**Best Practices**](best.qmd){.btn .btn-secondary .btn role="button"}
-
-Have a look at our list recommended best practices for putting together a replication package which will go through the process as smooth as possible. Our mission is to help you with that.
-
 <br>
-[**Preparing the package**](package.qmd){.btn .btn-secondary .btn role="button"}
-
-Learn how to prepare and submit your replication package. We give you precise step by step guidance throughout the process.
-
+[**2. Before Submitting Your Package**](before.qmd){.btn .btn-primary .btn role="button"}
 <br>
-[**Frequently Asked Questions**](faqs.qmd){.btn .btn-secondary .btn role="button"}
-
-We have collected a _long_ list of good questions and our answers regarding many different aspects of the process, so maybe those can clarify some queries you may have.
-
 <br>
-[**Replicate EJ Papers**](replicate.qmd){.btn .btn-secondary .btn role="button"}
+[**3. Preparing the package**](package.qmd){.btn .btn-primary .btn role="button"}
+<br>
+<br>
+[**4. Best Practices**](best.qmd){.btn .btn-primary .btn role="button"}
+<br>
+<br>
+[**5. Frequently Asked Questions**](faqs.qmd){.btn .btn-primary .btn role="button"}
 
-Looking for papers which have been checked for reproducibility and which you want to replicate? Have a look at our community on [dataverse.org]({{< var jpe.dataverse >}})
--->
-<br> 
-
-
-
-Find out more about the JPE Data Editor [here](de.qmd).
