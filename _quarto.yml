@@ -26,8 +26,18 @@ website:
     logo: img/jpe.jpg
     alignment: left
     contents: 
+      - href: index.qmd
+        text: Home     
       - href: policy.qmd
         text: Code and Data Policy      
+      - href: before.qmd
+        text: Before Submission 
+      - href: package.qmd
+        text: Preparing the Package
+      - href: best.qmd
+        text: Best Practice     
+      - href: faqs.qmd
+        text: FAQs
       - href: de.qmd
         text: Data Editor
       
@@ -36,13 +46,15 @@ website:
     anonymize-ip: true
   cookie-consent: true
 
-# format:
-#   html:
-#     theme: 
-#       - cosmo
-#       - mytheme.scss
-#     toc: true
-#     linkcolor: black
+format:
+  html:
+    mermaid:
+      theme: forest
+    theme: 
+      # - cosmo
+      - mytheme.scss
+    toc: true
+    linkcolor: black
 
 
 
