@@ -12,10 +12,10 @@ number-sections: true
 
 Your package should be submitted as a single `zip` file. While we do not enforce any particular structure for the contents of this archive, we ask you to observe a few simple rules for operational reasons:
 
-1. At the root of your package, there **must** be a `README` file in suitable format (`.txt`, `.md` or `.pdf`).
+1. At the root of your package, there **must** be a `README` file in suitable format (`.txt`, `.md` or `.pdf`). We do not accept supplementary `README` files in other locations of the package - There should be a unique point for all required documentation.
 2. You should clearly separate input, output and code in your package.
 3. If your package depends on confidential data which you can share only on a temporary basis with the Data Editor, clearly separate this from the public data in your package in order to avoid mistaken publication of such data. We recommend to call this folder `confidential-data-not-for-publication`.
-4. If the content of your package is larger than 10GB, zip compression becomes unstable. Please reach out to the Data Editor to agree on a say of splitting the content across multiple compressed files. In general, we aim for the smallest possible number of zip files below a 10GB threshold.
+4. If the content of your package is larger than 10GB, zip compression becomes unstable. Please reach out to the Data Editor to agree on a way of splitting the content across multiple compressed files. In general, we aim for the smallest possible number of zip files below a 10GB threshold.
 
 
 ### Some Examples
@@ -103,22 +103,22 @@ Here are three examples for potential package structures. *This is what we see a
 └── wave2regs2.dta
 ```
 
-The Data Editor would ask you to improve the structure of this package.
+The Data Editor would ask you to improve the structure of this package: First, the readme is in the wrong format, second, input, output and code are mixed.
 :::
 :::
 
 
-Keep in mind that you are allowed to include folder `confidential-data-not-for-publication`, you must have applied for exemption to the Data and Code Policy. There are relevant FAQs [here](before.qmd#apply-to-exemptions-to-the-data-and-code-availability-policy), [here](faqs.qmd#data-and-code-availability-policy-and-exemptions), and [here](faqs.qmd#procedures-when-exemptions-are-granted).
+Keep in mind that you can only include folder `confidential-data-not-for-publication`, if you have previously applied for exemption to the Data and Code Policy. There are relevant FAQs [here](before.qmd#apply-to-exemptions-to-the-data-and-code-availability-policy), [here](faqs.qmd#data-and-code-availability-policy-and-exemptions), and [here](faqs.qmd#procedures-when-exemptions-are-granted).
 
 
 
 ## Contents of Replication Package
 
-As indicated in the journal's [Data and Code Availability Policy](https://www.journals.uchicago.edu/journals/jpe/datapolicy) all packages should include the following information: 
+As indicated in the journal's [Data and Code Availability Policy](https://www.journals.uchicago.edu/journals/jpe/datapolicy) all packages should include the following material: 
 
-* A `README` file in PDF format (`README.pdf`). We strongly recommend using [this template](https://social-science-data-editors.github.io/template_README/).  You may find in [this web app](https://www.templatereadme.org/) a convenient tool to create your `README` file.
+* A `README` file in PDF format (`README.pdf`). We strongly recommend using [this template](https://social-science-data-editors.github.io/template_README/).  You may find in [this web app](https://www.templatereadme.org/) a convenient tool to create your `README` file. The minimally required content of the readme is specified [here](policy.qmd#sec-readme). A comprehensive list is given below in @sec-package-readme.
 * The **raw datasets** used in the paper and online appendices, including a complete, transparent and precise documentation describing all variables. You can additionally provide the analysis data if this is helpful, but they are not required if the raw data are provided. 
-* If you were granted a data exemption at the time of first submission (see [here](before.qmd#apply-to-exemptions-to-the-data-and-code-availability-policy), [here](faqs.qmd#data-and-code-availability-policy-and-exemptions), and [here](faqs.qmd#procedures-when-exemptions-are-granted) for details), you should either provide the replication team with **temporary access** to the data for the sole purpose of performing the reproducibility checks, or you should submit a **synthetic/simulated** dataset that allows running the code and produce all outputs in the paper and appendices, even if the results do not match those in the paper. If you can provide temporary access but you cannot share the data in the `4-confidential-data-not-for-publication.zip` folder, please contact the Data Editor at {{< var de.mail >}} to arrange an alternative access method. The content of this folder will be destroyed after the reproducibility checks are completed. All replicators and the Data Editor have signed confidentiality agreements that protect your submission.
+* If you were granted a data exemption at the time of first submission (see [here](before.qmd#apply-to-exemptions-to-the-data-and-code-availability-policy), [here](faqs.qmd#data-and-code-availability-policy-and-exemptions), and [here](faqs.qmd#procedures-when-exemptions-are-granted) for details), you should either provide the replication team with **temporary access** to the data for the sole purpose of performing the reproducibility checks, or you should submit a **synthetic/simulated** dataset that allows running the code and produce all outputs in the paper and appendices, even if the results do not match those in the paper. If you can provide temporary access but you cannot share the data in the `4-confidential-data-not-for-publication` folder, please contact the Data Editor at {{< var de.mail >}} to arrange an alternative access method. The content of this folder will be destroyed after the reproducibility checks are completed. All replicators and the Data Editor have signed confidentiality agreements that protect your submission.
 * Both the data cleaning codes and the analysis codes that produce all reproducible outputs reported in the article, appendix, and online appendices (including figures, tables, and numbers reported in the text). If some results are produced without scripts (e.g. ArcGIS maps), the `README` file should include step-by-step _very detailed instructions_ on how to produce that output. In case of simulation/Monte Carlo studies, the authors are requested to set a seed so that the exact numbers that are reported can be obtained.
 * If data are provided in proprietary format (e.g. Stata's `.dta`), a copy of the data in non-proprietary format (e.g. `ASCII`, `.csv`).
 
@@ -130,7 +130,7 @@ As indicated in the journal's [Data and Code Availability Policy](https://www.jo
 4. A PDF copy of the **Institutional Review Board (IRB) approval** of one of the authors' institutions (IRB approval number, date, name of the institution) or an explicit mention that an exemption has been granted by the Editorial Board.
 
 
-## The `README` File
+## The `README` File {#sec-package-readme}
 
 The `README` file should provide enough instructions so that all users (level of an advanced PhD student and above) can reproduce all the results in the paper in a reasonable amount of time and without problems. We strongly recommend using [this template](https://social-science-data-editors.github.io/template_README/).You may find in [this web app](https://www.templatereadme.org/) a convenient tool to create your `README` file. The **minimum required information includes**: 
 
@@ -141,7 +141,7 @@ The `README` file should provide enough instructions so that all users (level of
    - [ ] I certify that the author(s) of the manuscript have legitimate access to and permission to use the data used in this manuscript.
    - [ ] I certify that the author(s) of the manuscript have documented permission to redistribute/publish the data contained within this replication package. Appropriate permission are documented in the LICENSE.txt file (if applicable).
 4. Precise **instructions** on how to run the code.
-5. Indications on where each piece of output is saved or displayed. (See best practices below)
+5. Indications on where each piece of output is saved or displayed. 
 6. **Software requirements**, including the software version and operating system used by the authors.
 7. All **packages and libraries** that need to be installed to run the code and a clear indication on how to obtain them.
 8. **Expected running time** (even if it is a few seconds). When relevant, include the hardware that the estimated time refers to.

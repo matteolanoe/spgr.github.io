@@ -129,7 +129,7 @@ It is strongly recommended to use the `README` template ([available here](https:
 
 ### Location
 
-By default, conditionally accepted papers should deposit their replication package in the [JPE dataverse repository](https://dataverse.harvard.edu/dataverse/JPE), where it will be reviewed by the Data Editor. After the successful conclusion of reproducibility checks, the package will be published in this dataverse space.
+Replication packages for conditionally accepted papers are reviewed by the Data Editor. After the successful conclusion of reproducibility checks, the authors upload the package to the [JPE dataverse repository](https://dataverse.harvard.edu/dataverse/JPE).
 
 In cases where data cannot be published in an openly accessible trusted data repository like the JPE dataverse, authors who have requested an exemption to publish them at the time of first submission must commit to preserving the data and code for a period of no less than five years following the publication of the paper. They should also provide reasonable assistance to requests for clarification and replication.
 

@@ -5,28 +5,29 @@ title: "Journal of Political Economy <br> Data Editor Website"
 This website provides relevant information regarding the [Data and Code Availability Policy](policy.qmd) and pre-acceptance reproducibility checks implemented at the JPE. 
 
 
-Here is a schematic outline of the reproducibility checks process:
+
+::: {.columns}
+::: {.column width=48% .left-col}
+**Schematic overview of the process:**
+
 
 ```{mermaid}
-%%| title: process
+%%| fig-cap: Reproducibility Process. Notice that confidential data can be shared with the Data Editor for the purpose of checks, while it will be excluded from the published package on dataverse.
 flowchart TD
   X(Paper<br>conditionally accepted) --> A
-  A(Author fills<br> out form) --> B(Data Editor<br>sends private<br>upload link)
+  A(Author fills out <br> Data Availability Form) --> B(Data Editor<br>sends <i>private</i><br>upload link)
   B --> C{Checks pass}
   C --> D[Yes: author uploads<br>to dataverse]
   C --> E[No: package goes<br>back to authors]
   E --> B
 ```
 
+:::
+::: {.column width=4%}
+:::
+::: {.column width=48% .right-col}
 
-1. Authors fill out data availability form in conditional acceptance email.
-2. Data Editor invites submission of package via private upload link. Confidential data can be shared at this stage.
-3. JPE Reproducibility team checks package.
-   1. If successfull, authors upload package to JPE dataverse, removing any confidential data from package.
-   2. if not, Data Editor asks for improvements, and we enter the next round.
-
-
-We invite you to consider the following list of steps for your replication package:
+**Please consider the following steps:**
 
 <br>
 [**1. Read the JPE Policy**](policy.qmd){.btn .btn-primary .btn role="button"}
@@ -42,4 +43,11 @@ We invite you to consider the following list of steps for your replication packa
 <br>
 <br>
 [**5. Frequently Asked Questions**](faqs.qmd){.btn .btn-primary .btn role="button"}
+
+:::
+::: 
+
+
+
+
 

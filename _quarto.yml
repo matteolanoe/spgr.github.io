@@ -1,7 +1,5 @@
 project:
   type: website
-  post-render:
-    - "cp -rv static/. _site/"
 
 website:
   title: "{{< var jpe.short >}} Data Editor"
@@ -49,12 +47,11 @@ website:
 format:
   html:
     mermaid:
-      theme: forest
+      theme: default
     theme: 
       # - cosmo
       - mytheme.scss
     toc: true
-    linkcolor: black
 
 
 

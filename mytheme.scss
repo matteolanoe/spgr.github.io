@@ -6,7 +6,16 @@
 
 //primary color
 $secondary: #afafaf;
-$primary: #95dabf;
+$primary: #94d0b9;
 
 // inline code text color:
 // $code-color: rgb(167, 151, 2);
+
+.column.left-col {
+  border-right: 1px solid #ccc;
+  padding-right: 1rem;
+}
+
+.column.right-col {
+  padding-left: 1rem;
+}
