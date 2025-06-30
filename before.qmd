@@ -43,9 +43,7 @@ Please follow precise instructions on how to structure your replication package 
 
 If you are not able to comply with some of the aspects of the Data and Code Availability Policy (e.g. because you are using restricted-access data or you cannot obtain permission to re-publish the data), you should request an exemption **at the time of first submission of your paper**. You can find a set of Frequently Asked Questions about the situations under which you can or cannot apply to an exemption to the data and code availability policy [here](faqs.qmd). 
 
-If you want to request a Data Exemption, *here is what you need to do*
-
-Additionally, attach a Cover Letter along with your paper in which you indicate the reasons why you believe you are entitled to an exemption to our data and code availability policy. 
+If you want to request a Data Exemption, you should do so in a cover letter, explaining all relevant details about why you think an exemption is warranted. 
 
 Once the paper is submitted, the Managing Editor will analyze whether (i) there are enough grounds to grant the exemption and (ii) the exemption or the nature of the data limits the interest of the paper. Based on their assessment of these two points, they will make one of the following decisions: (a) move forward with the process, sending your paper to referees, (b) summarily reject your paper, or (c) contact you, asking to provide additional information, documentation, or any other requirement that they need to assess the suitability of the requested exemption. The exemptions are tacitly granted by choosing option (a). 
 
