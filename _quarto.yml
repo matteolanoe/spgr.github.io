@@ -11,12 +11,12 @@ website:
     right: "[Report an Issue](https://github.com/jpedataeditor/jpedataeditor.github.io/issues/new/choose)"
 
   # temporary
-  announcement: 
-    icon: cone-striped
-    dismissable: false
-    content: "This website is being built at the moment. Official Launch July 1st 2025."
-    type: warning
-    position: above-navbar
+  # announcement: 
+  #   icon: cone-striped
+  #   dismissable: false
+  #   content: "This website is being built at the moment. Official Launch July 1st 2025."
+  #   type: warning
+  #   position: above-navbar
 
   sidebar:
     style: docked

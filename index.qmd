@@ -2,7 +2,7 @@
 title: "Journal of Political Economy <br> Data Editor Website"
 ---
 
-This website provides relevant information regarding the [Data and Code Availability Policy](policy.qmd) and pre-acceptance reproducibility checks implemented at the JPE. 
+This website provides relevant information regarding the [Data and Code Availability Policy](policy.qmd) and pre-acceptance reproducibility checks implemented at the [JPE](https://www.journals.uchicago.edu/toc/jpe/current). 
 
 
 
